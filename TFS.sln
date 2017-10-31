@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFS", "TFS\TFS.csproj", "{85C421DB-D607-4C26-A0AE-60410C0ECD21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFS.Export.Branches", "TFS.Export.Branches\TFS.Export.Branches.csproj", "{E4ADC3AF-E04B-4CDF-9E33-B83DAE780FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFS.Test", "TFS.Test\TFS.Test.csproj", "{934F9431-4311-40A6-B36B-EF773FE5F8BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{85C421DB-D607-4C26-A0AE-60410C0ECD21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{85C421DB-D607-4C26-A0AE-60410C0ECD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{85C421DB-D607-4C26-A0AE-60410C0ECD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{85C421DB-D607-4C26-A0AE-60410C0ECD21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4ADC3AF-E04B-4CDF-9E33-B83DAE780FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4ADC3AF-E04B-4CDF-9E33-B83DAE780FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4ADC3AF-E04B-4CDF-9E33-B83DAE780FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4ADC3AF-E04B-4CDF-9E33-B83DAE780FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{934F9431-4311-40A6-B36B-EF773FE5F8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934F9431-4311-40A6-B36B-EF773FE5F8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934F9431-4311-40A6-B36B-EF773FE5F8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934F9431-4311-40A6-B36B-EF773FE5F8BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
